@@ -51,12 +51,12 @@ avatar: "/img/avatar-icon.png"
 # http://colormind.io/
 # Only God Forgives
 navbar-col: "#3C6B6B"
-navbar-text-col: "#3E2A11"
+navbar-text-col: "#390F0A"
 navbar-children-col: "#F5F5F5"
 page-col: "#FAFAFA"
-link-col: "#008AFF"
-hover-col: "#390F0A"
-footer-col: "#643915"
+link-col: "#390F0A"
+hover-col: "#F2D6A2"
+footer-col: "#3C6B6B"
 footer-text-col: "#7B4E1C"
 footer-link-col: "#404040"
 
