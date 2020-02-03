@@ -1,3 +1,4 @@
 Ok, here's a dataset of some earthquakes.
 Here's the website, it's the "All Earthquakes" from "Past 30 Days":
 https://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php
+Record taken from Dec 29, 2019 - Jan 28, 2020
