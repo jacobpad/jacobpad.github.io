@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Unit 1
+title: Data Science Applied to Earthquakes
 image: /img/earthquake-earth.webp
 ---
 
@@ -51,6 +51,7 @@ of the 5 biggest quakes that finished out the year 2019 and shook in the year 20
 <a href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png">
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png" alt="top_5_magnitude_earthquakes">
 </a>
+
 <hr>
 
 <a href="https://github.com/jacobpad/jacobpad.github.io/blob/master/data/U1_Build_Week_Jacob_Padgett.ipynb">My Github For This Project</a><br>
