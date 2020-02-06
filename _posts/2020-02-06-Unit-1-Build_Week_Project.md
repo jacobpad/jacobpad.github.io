@@ -35,10 +35,10 @@ As of now, they have even more recent information, but this is what I collected 
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/earthquake_depth_and_magnitude_averages.png"
  alt="earthquake_depth_and_magnitude_averages"/>
 
-    
+<a href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Here%E2%80%99s%20the%20breakdown%20of%20earthquakes.png"    
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Screen%20Shot%202020-02-06%20at%203.03.22%20PM.png"
  alt="breakdown of quakes" style="width:600px;height:300px;"/>
- 
+ </a>
 
 ## The 5 biggest quakes from December 29th, 2019 to January 28th, 2020
 
@@ -48,8 +48,9 @@ information about them, I was able to plot the coordinates of the five highest m
 This skill took me a substancial amount of time to learn, but in all it's beauty here is a showing 
 of the 5 biggest quakes that finished out the year 2019 and shook in the year 2020.
 
+<a href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png">
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png" alt="top_5_magnitude_earthquakes">
-
+</a>
 <hr>
 
 <a href="https://github.com/jacobpad/jacobpad.github.io/blob/master/data/U1_Build_Week_Jacob_Padgett.ipynb">My Github For This Project</a><br>
