@@ -35,7 +35,7 @@ As of now, they have even more recent information, but this is what I collected 
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/earthquake_depth_and_magnitude_averages.png"
  alt="earthquake_depth_and_magnitude_averages"/>
 
-<a href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Here%E2%80%99s%20the%20breakdown%20of%20earthquakes.png"    
+<a  href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Here%E2%80%99s%20the%20breakdown%20of%20earthquakes.png">
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Screen%20Shot%202020-02-06%20at%203.03.22%20PM.png"
  alt="breakdown of quakes" style="width:600px;height:300px;"/>
  </a>
