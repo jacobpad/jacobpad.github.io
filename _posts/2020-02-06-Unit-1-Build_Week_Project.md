@@ -37,7 +37,7 @@ As of now, they have even more recent information, but this is what I collected 
 
     
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Screen%20Shot%202020-02-06%20at%203.03.22%20PM.png"
- alt="breakdown of quakes" style="width:300px;height:400px;"/>
+ alt="breakdown of quakes" style="width:600px;height:300px;"/>
  
 
 ## The 5 biggest quakes from December 29th, 2019 to January 28th, 2020
