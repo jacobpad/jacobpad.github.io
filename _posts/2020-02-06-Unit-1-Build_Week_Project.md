@@ -50,9 +50,12 @@ information about them, I was able to plot the coordinates of the five highest m
 This skill took me a substancial amount of time to learn, but in all it's beauty here is a showing 
 of the 5 biggest quakes that finished out the year 2019 and shook in the year 2020.
 
-<a href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png">
-<img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png" alt="top_5_magnitude_earthquakes">
-</a>
+<figure>
+ <a href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png">
+ <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_5_magnitude_earthquakes.png" alt="top_5_magnitude_earthquakes">
+ </a>
+ <figcaption>Click picture for more details</figcaption>
+</figure>
 
 <hr>
 
