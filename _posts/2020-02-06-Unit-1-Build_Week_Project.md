@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <a href="https://github.com/jacobpad/jacobpad.github.io/blob/master/data/U1_Build_Week_Jacob_Padgett.ipynb">Data Science Applied to Earthquakes</a>
+title: Data Science Applied to Earthquakes
 image: /img/earthquake-earth.webp
 ---
 
