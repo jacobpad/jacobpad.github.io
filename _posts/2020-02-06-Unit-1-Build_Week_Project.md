@@ -59,6 +59,9 @@ of the 5 biggest quakes that finished out the year 2019 and shook in the year 20
 
 <hr>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/svwdFrpHODI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr>
 <a href="https://github.com/jacobpad/jacobpad.github.io/blob/master/data/U1_Build_Week_Jacob_Padgett.ipynb">My Github For This Project</a><br>
 <a href="http://earthquake.usgs.gov/earthquakes/feed/v1.0/csv.php">Where I got my data.</a>
 <br>
