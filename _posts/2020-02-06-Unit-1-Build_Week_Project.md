@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Science Applied to Earthquakes
+title: <a href="https://github.com/jacobpad/jacobpad.github.io/blob/master/data/U1_Build_Week_Jacob_Padgett.ipynb">Data Science Applied to Earthquakes</a>
 image: /img/earthquake-earth.webp
 ---
 
@@ -30,8 +30,7 @@ As of now, they have even more recent information, but this is what I collected 
  For example, the <a href="https://en.wikipedia.org/wiki/2019_Peru_earthquake">8.0 earthquake in Peru during 2019</a>
  measured a depth of <strong>122 kilometers</strong>, and the <a href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami">
  9.0 Japan quake in 2011</a> was <strong>29 kilometers</strong> deep. It's important to remember the following are the averages of each
- starting with earthquakes in the 2.5 to 3.0 magnitude range. And know, I've dropped the earthquakes less than 2.5 magnitude because I was interested in the ones people would be more likely to feel.
-
+ starting with earthquakes in the 2.5 to 3.0 magnitude range. And know, I've dropped the earthquakes less than 2.5 magnitude because I was interested in the ones people would be more likely to feel and to make sure I didn’t get any seismic activity from things like quarry blasts and mining.
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/earthquake_depth_and_magnitude_averages.png"
  alt="earthquake_depth_and_magnitude_averages"/>
 
@@ -42,7 +41,7 @@ As of now, they have even more recent information, but this is what I collected 
 
 ## The 5 biggest quakes from December 29th, 2019 to January 28th, 2020
 
-Where the biggest five are earthquakes located? Thanks to the USGS site providing all kinds of 
+Where are the biggest five are earthquakes located? Thanks to the USGS site providing all kinds of 
 information about them, I was able to plot the coordinates of the five highest magnitude quakes.
 
 This skill took me a substancial amount of time to learn, but in all it's beauty here is a showing 
