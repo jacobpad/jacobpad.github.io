@@ -28,9 +28,9 @@ As of now, they have even more recent information, but this is what I collected 
  you were trying to measure the depth versus magnitude. However, if you take into account the fact that 
  there are fewer earthquakes as magnitude increases, there's less information to get because there's less quakes. 
  For example, the <a href="https://en.wikipedia.org/wiki/2019_Peru_earthquake">8.0 earthquake in Peru during 2019</a>
- measured a depth of 122 kilometers, and the <a href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami">
- 9.0 Japan quake in 2011</a> was 29 kilometers deep. It's important to remember the following is the averages of each
- starting with earthquakes in the 2.5 to 3.0 magnitude range. And know, I've dropped the earthquakes less than 2.5 magnitude.
+ measured a depth of <strong>122 kilometers</strong>, and the <a href="https://en.wikipedia.org/wiki/2011_T%C5%8Dhoku_earthquake_and_tsunami">
+ 9.0 Japan quake in 2011</a> was <strong>29 kilometers</strong> deep. It's important to remember the following are the averages of each
+ starting with earthquakes in the 2.5 to 3.0 magnitude range. And know, I've dropped the earthquakes less than 2.5 magnitude because I was interested in the ones people would be more likely to feel.
 
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/earthquake_depth_and_magnitude_averages.png"
  alt="earthquake_depth_and_magnitude_averages"/>
