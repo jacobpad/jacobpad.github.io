@@ -23,6 +23,14 @@ As of now, they have even more recent information, but this is what I collected 
  
  This is what the earthquakes look like for the month mentioned above. Thousands of earthquakes fall within the range 
  between 0 and 2.5 magnitude.
+ 
+ <figure>
+ <a  href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Here%E2%80%99s%20the%20breakdown%20of%20earthquakes.png">
+ <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Screen%20Shot%202020-02-06%20at%203.03.22%20PM.png"
+ alt="breakdown of quakes" style="width:600px;height:300px;"/>
+ </a>
+ <figcaption>Click picture for more details</figcaption>
+</figure>
 
  Does the depth of an earthquake matter? Not really. The graph below may seem a little bit misleading if 
  you were trying to measure the depth versus magnitude. However, if you take into account the fact that 
@@ -33,14 +41,6 @@ As of now, they have even more recent information, but this is what I collected 
  starting with earthquakes in the 2.5 to 3.0 magnitude range. And know, I've dropped the earthquakes less than 2.5 magnitude because I was interested in the ones people would be more likely to feel and to make sure I didn’t get any seismic activity from things like quarry blasts and mining.
 <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/earthquake_depth_and_magnitude_averages.png"
  alt="earthquake_depth_and_magnitude_averages"/>
-
-<figure>
- <a  href="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Here%E2%80%99s%20the%20breakdown%20of%20earthquakes.png">
- <img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Screen%20Shot%202020-02-06%20at%203.03.22%20PM.png"
- alt="breakdown of quakes" style="width:600px;height:300px;"/>
- </a>
- <figcaption>Click picture for more details</figcaption>
-</figure>
 
 ## The 5 biggest quakes from December 29th, 2019 to January 28th, 2020
 
