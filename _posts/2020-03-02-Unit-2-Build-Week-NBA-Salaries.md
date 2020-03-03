@@ -1,3 +1,10 @@
+---
+layout: post
+title: Data Science Applied to Earthquakes
+image: /img/NBA-vector-logos.jpg
+---
+
+
 <h1>This is my Unit 2 project - NBA Salaries Predictions</h1>
 
 <h3>Intro</h3>
