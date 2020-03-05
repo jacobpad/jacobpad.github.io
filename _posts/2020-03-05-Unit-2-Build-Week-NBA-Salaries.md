@@ -11,8 +11,7 @@ image: /img/NBA-vector-logos.jpg
 
 I was able to obtain some stats from [NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season), and the salaries from [ESPN.com](http://www.espn.com/nba/salaries), which I scraped the data. I 
 combined the two peices of data together, which gave me a set of all players in the National Basketball Association, from 
-every team, all 30 teams. I kept and am using only the active players who have any stats. Not included are the full time professional bench warmers, who still make money, but don't play in regulation games.</p>
-
+every team, all 30 teams. I kept and am using only the active players who have any stats. Not included are the full time professional bench warmers, who still make money, but don't play in regulation games.
 ## Target
 
 I wanted to be able to predict how much an incoming player may earn (in USD) if the player could provide a certain benefit to the franchise by giving the stats they would average.
@@ -79,7 +78,7 @@ On average, as a player adds to their point total, the predicted salary goes dow
 
 Here we can see that, on average, as a player ages, their salary is predicted to increase. I can only speculate that this has to do with the fact that they've likely been playing longer and have much more professional experience, hence the player is more valuable.
 
-![PDP for age](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age.png
+![PDP for age](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age.png)
 
 ### Age & Free Throw Attempts
 
@@ -97,146 +96,146 @@ Position (may be: Shooting Guard, Power Forward, Small Forward, Point Guard, Cen
 
 ### Example 1
 
-position_SG	1
-AGE	27
-GP	41
-W	9
-L	32
-MIN_PLAYED	1,154
-PTS	503
-FGM	173
-FGA	414
-FG_PERCENT	42
-x_3PM	63
-x_3PA	178
-x_3P_PERCENT	35
-FTM	94
-FTA	106
-FT_PERCENT	89
-OREB	30
-DREB	167
-REB	197
-AST	103
-TOV	56
-STL	41
-BLK	4
-PF	95
+position_SG	1  
+AGE	27  
+GP	41  
+W	9  
+L	32  
+MIN_PLAYED	1,154  
+PTS	503  
+FGM	173  
+FGA	414  
+FG_PERCENT	42  
+x_3PM	63  
+x_3PA	178  
+x_3P_PERCENT	35  
+FTM	94  
+FTA	106  
+FT_PERCENT	89  
+OREB	30  
+DREB	167  
+REB	197  
+AST	103  
+TOV	56  
+STL	41  
+BLK	4  
+PF	95  
 
 ![Shap Example 1](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_1.png?raw=true)
 
 ### Example 2
 
-position_SG	1
-AGE	27
-GP	56
-W	23
-L	33
-MIN_PLAYED	1,847
-PTS	1,129
-FGM	408
-FGA	949
-FG_PERCENT	43
-x_3PM	210
-x_3PA	545
-x_3P_PERCENT	38
-FTM	103
-FTA	122
-FT_PERCENT	84
-OREB	53
-DREB	222
-REB	275
-AST	180
-TOV	135
-STL	50
-BLK	16
-PF	137
+position_SG	1  
+AGE	27  
+GP	56  
+W	23  
+L	33  
+MIN_PLAYED	1,847  
+PTS	1,129  
+FGM	408  
+FGA	949  
+FG_PERCENT	43  
+x_3PM	210  
+x_3PA	545  
+x_3P_PERCENT	38  
+FTM	103  
+FTA	122  
+FT_PERCENT	84  
+OREB	53  
+DREB	222  
+REB	275  
+AST	180  
+TOV	135  
+STL	50  
+BLK	16  
+PF	137  
 
 ![Shap Example 2](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_2.png?raw=true)
 
 ### Example 3
 
-position_PF	1
-AGE	24
-GP	55
-W	19
-L	36
-MIN_PLAYED	1,071
-PTS	638
-FGM	221
-FGA	393
-FG_PERCENT	56
-x_3PM	43
-x_3PA	113
-x_3P_PERCENT	38
-FTM	153
-FTA	204
-FT_PERCENT	75
-OREB	82
-DREB	242
-REB	324
-AST	45
-TOV	65
-STL	25
-BLK	48
-PF	82
+position_PF	1  
+AGE	24  
+GP	55  
+W	19  
+L	36  
+MIN_PLAYED	1,071  
+PTS	638  
+FGM	221  
+FGA	393  
+FG_PERCENT	56  
+x_3PM	43  
+x_3PA	113  
+x_3P_PERCENT	38  
+FTM	153  
+FTA	204  
+FT_PERCENT	75  
+OREB	82  
+DREB	242  
+REB	324  
+AST	45  
+TOV	65   
+STL	25  
+BLK	48  
+PF	82  
 
 ![Shap Example 3](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_3.png?raw=true)
 
 ### Example 4
 
-position_SG	1
-AGE	23
-GP	55
-W	35
-L	20
-MIN_PLAYED	1,892
-PTS	1,331
-FGM	494
-FGA	1,082
-FG_PERCENT	46
-x_3PM	132
-x_3PA	367
-x_3P_PERCENT	36
-FTM	211
-FTA	245
-FT_PERCENT	86
-OREB	36
-DREB	201
-REB	237
-AST	234
-TOV	148
-STL	59
-BLK	11
-PF	133
+position_SG	1  
+AGE	23  
+GP	55  
+W	35  
+L	20  
+MIN_PLAYED	1,892  
+PTS	1,331  
+FGM	494  
+FGA	1,082  
+FG_PERCENT	46  
+x_3PM	132  
+x_3PA	367  
+x_3P_PERCENT	36  
+FTM	211  
+FTA	245  
+FT_PERCENT	86  
+OREB	36  
+DREB	201  
+REB	237  
+AST	234  
+TOV	148  
+STL	59  
+BLK	11  
+PF	133  
 
 ![Shap Example 4](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_4.png?raw=true)
 
 ### Example 5
 
-position_PF	1
-AGE	33
-GP	52
-W	31
-L	21
-MIN_PLAYED	1,586
-PTS	610
-FGM	247
-FGA	566
-FG_PERCENT	44
-x_3PM	73
-x_3PA	228
-x_3P_PERCENT	32
-FTM	43
-FTA	59
-FT_PERCENT	73
-OREB	78
-DREB	267
-REB	345
-AST	197
-TOV	52
-STL	45
-BLK	47
-PF	112
+position_PF	1  
+AGE	33  
+GP	52  
+W	31  
+L	21  
+MIN_PLAYED	1,586  
+PTS	610  
+FGM	247  
+FGA	566  
+FG_PERCENT	44  
+x_3PM	73  
+x_3PA	228  
+x_3P_PERCENT	32  
+FTM	43  
+FTA	59  
+FT_PERCENT	73  
+OREB	78  
+DREB	267  
+REB	345  
+AST	197  
+TOV	52  
+STL	45  
+BLK	47  
+PF	112  
 
 ![Shap Example 5](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_5.png?raw=true)
 
@@ -244,7 +243,11 @@ PF	112
 
 ---
 
-I enjoyed this project. I learned a lot, including basics of how to scrape data. You may see my code for how I scraped [here](https://github.com/jacobpad/DS-Unit-1-Sprint-1-Data-Wrangling-and-Storytelling/blob/master/Web_Scraping_ESPN_NBA_Clean_Copy.ipynb) the salaries. And [here](https://github.com/jacobpad/jacobpad.github.io/blob/master/data/2019_2020_nba_records.csv) is all that data merged together. Additionally, [here](https://github.com/jacobpad/jacobpad.github.io/blob/master/data/nba_player_general_stats_2019-2020.csv) are the stats.
+I enjoyed this project.  
+I learned a lot, including basics of how to scrape data.  
+You may see my code for how I scraped the salaries [here](https://github.com/jacobpad/DS-Unit-1-Sprint-1-Data-Wrangling-and-Storytelling/blob/master/Web_Scraping_ESPN_NBA_Clean_Copy.ipynb).  
+And [here](https://github.com/jacobpad/jacobpad.github.io/blob/master/data/2019_2020_nba_records.csv) is all that data merged together.  
+Additionally, [here](https://github.com/jacobpad/jacobpad.github.io/blob/master/data/nba_player_general_stats_2019-2020.csv) are the stats.
 
 ---
 
