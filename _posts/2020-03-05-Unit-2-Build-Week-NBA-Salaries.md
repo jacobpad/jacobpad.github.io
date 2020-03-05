@@ -9,7 +9,7 @@ image: /img/NBA-vector-logos.jpg
 
 ## Intro
 
-I was able to obtain some stats from [NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season), and the salaries from [ESPN.com](http://www.espn.com/nba/salaries), which I scraped the data. I 
+I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)**, and the salaries from **[ESPN.com](http://www.espn.com/nba/salaries)**, which I scraped the data. I 
 combined the two peices of data together, which gave me a set of all players in the National Basketball Association, from 
 every team, all 30 teams. I kept and am using only the active players who have any stats. Not included are the full time professional bench warmers, who still make money, but don't play in regulation games.
 
