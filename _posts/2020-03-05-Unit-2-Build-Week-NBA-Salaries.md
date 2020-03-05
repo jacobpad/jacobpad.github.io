@@ -240,6 +240,11 @@ PF	112
 
 ![Shap Example 5](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_5.png?raw=true)
 
+## Conclusion
+
+Overall, I am pleased with the results I received from my testing. I think that because I was using real salaries from the NBA the ranged from the low hundred thousands to north of $40 million, I had a bit of a challenge getting my accuracy scores to a better range. The limited number of players in the NBA was also an inhibiting factor. But because the NBA deals with millions and billions of dollars, I wouldn't be uncomfortable guessing a salary with provided stats.
+
+
 ------
 
 ------
