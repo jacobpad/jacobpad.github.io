@@ -9,33 +9,31 @@ image: /img/NBA-vector-logos.jpg
 
 ## Intro
 
-I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)**, and the salaries from **[ESPN.com](http://www.espn.com/nba/salaries)**, which I scraped the data. I 
-combined the two peices of data together, which gave me a set of all players in the National Basketball Association, from 
-every team, all 30 teams. I kept and am using only the active players who have any stats. Not included are the full time professional bench warmers, who still make money, but don't play in regulation games.
+I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)** and salaries from **[ESPN.com](http://www.espn.com/nba/salaries)** where I scraped the data. I combined the data together which gave me a set of all players in the National Basketball Association, from all 30 teams. I am using only the active players who have stats. 
 
 ## Target
 
-I wanted to be able to predict how much an incoming player may earn (in USD) if the player could provide a certain benefit to the franchise by giving the stats they would average.
+I wanted to predict how much an incoming player may earn (in USD) if the player could provide a certain benefit to the franchise by giving the stats they would average over a season.
 
 ## Moving On
 
 As I moved on toward my goal of trying to predict the salary of an incoming player, one thing important is to know 
-which stats are more important than others. **I figured off** the top of my head, and throughout my years of playing basketball myself (highschool and college), that **the number of points a player could make would be the leading factor in how much money they would earn as a professional athlete**. I was surprised when I figured out I was wrong. The number of points wasn't even in the top 5.
+which stats are most important. **I figured** off the top of my head, and throughout my years of playing basketball myself (highschool and college), that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5.
 
 ## Baseline Score
 
-When talking about basketball, the baseline score may be a bit confusing. You may think I'm trying to figure out how many players can score from the baseline... or some variatrion of that. However, for the baseline score, what I'm doing is taking the **mean salary** of the players, which is **$8,516,607** and figuring the mean absolute error, which is the **absolute difference** between each players salary and the mean. It comes to **$7,025,639**.
+When talking about basketball, the baseline score may be a bit confusing. You may think I'm trying to figure out how many players can score from the baseline... or some variatrion of that. However, for the baseline score, what I'm doing is taking the **mean salary** of the players, which is **$8,516,607** and figuring the **mean absolute error**, which is the absolute difference between each players salary and the mean. It comes to **$7,025,639**.
 
 ## Linear Regressioion
 
-As I continued my searching predictions I used the points value to generate a model that, given a player who would score **1500 points**, I predicted the player to have a salary of **$24,853,148**, but now we have a baseline wo work with which means the **range** could be $7,025,639 more or less than the predicted salary (between **$17,827,509 & $31,878,787**). So, an incomming player can assume that *for every single point they score*, based on scoring alone, they can *expect to average 
+As I continued my searching predictions I used the points value to generate a model that, given a player who would score **1500 points**, predicted the a salary of **$24,853,148**, but now we have a baseline to work with which means the **range** could be $7,025,639 more or less than the predicted salary (between **$17,827,509 & $31,878,787**). So, an incomming player can assume that *for every single point they score*, based on scoring alone, they can *expect to average 
 around **$15,693 per point.***
 
 ## Top Ten Stats
 
 ***Note:*** As we see below, I was wromg about the points.
 
-In order of the impact on the salary, these are the top ten stats.<br>
+In order of the impact on salary, these are the top ten stats.<br>
 1.  Age <br>
 2.  Free Throws Attempted <br>
 3.  Free Throws Made  <br>
@@ -59,7 +57,7 @@ This method tested at a hair over 84% when running it on my training data, which
 
 ## Random Forest
 
-I also managed to pull out a random forest model which came back with a validation accuracy of 46%.
+I also managed to pull off a random forest model which came back with a validation accuracy of 46%.
 
 ## XGBoost
 
@@ -75,21 +73,21 @@ On average, as a player adds to their point total, the predicted salary goes dow
 
 ### Age
 
-Here we can see that, on average, as a player ages, their salary is predicted to increase. I can only speculate that this has to do with the fact that they've likely been playing longer and have much more professional experience, hence the player is more valuable.
+Here we see that, on average, as a player ages, their salary is predicted to increase. I can only speculate that this has to do with the fact that they've likely been playing longer and have much more professional experience, hence the player is more valuable and worth more.
 
 ![PDP for age](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age.png)
 
 ### Age & Free Throw Attempts
 
-Strictly based on a players age and their free throw attempts, regardless if they score or not, **a 36 year old athlete who goes to theline 482 times, is predicted to make (the top right corner) $17,949,892.** But there are other stats required to get the attempts at the line, so although this is fun to know, it's not realistic that any team is going to have a player who doesn't even play any minutes yet gets to attempt 482 free throws... or any at all. Point is, one must have other stats, which affect the salary also. I chose these two, because they have the biggest impact on a salary, as seen above.
+Strictly based on a players age and their free throw attempts, regardless if they score or not, **a 36 year old athlete who goes to the line 482 times, is predicted to make (the top right corner) $17,949,892.** But there are other stats required to get the attempts at the line, so although this is fun to know, it's not realistic that any team is going to have a player who doesn't play any minutes yet gets to attempt 482 free throws... or any at all. Point is, one must have other stats, which affect the salary also. I chose these two, because they have the biggest impact on a salary, as seen above.
 
 [![PDP Age & Free Throw Attempts](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age_fta.png)](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age_fta.png)
 
 ## Shaps
 
-Below are five examples of players and the stats, should they provide, with the associated predicted values (salary) and the biggest weights per example.
+Below are five examples of players and the stats they provide, with the associated predicted values (salary) and the biggest weights per example.
 
-To understand these images, know that the RED raises the salary, and the BLUE lowers it. The bigger the distance of each individual section, the bigger the impact. 
+To understand these images, know that the RED bars raise the salary, and the BLUE bars lower it. The bigger the width of each individual section, the bigger the impact. 
 
 And don't let the scientific notation intimidate you. I wasn't sure how to switch it, but just know it represents the salary.
 
