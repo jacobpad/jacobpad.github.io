@@ -9,7 +9,7 @@ image: /img/NBA-vector-logos.jpg
 
 ## Intro
 
-I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)** and salaries from **[ESPN.com](http://www.espn.com/nba/salaries)** where I scraped the data. I combined the data together which gave me a set of all players in the National Basketball Association, from all 30 teams. I am using only the active players who have stats. 
+I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)** and salaries from **[ESPN.com](http://www.espn.com/nba/salaries)** where I scraped the data. I combined the data together which gave me a set of all players in the National Basketball Association from all 30 teams. I am using only the active players who have stats. 
 
 ## Target
 
@@ -17,21 +17,21 @@ I wanted to predict how much an incoming player may earn (in USD) if the player 
 
 ## Moving On
 
-As I moved on toward my goal of trying to predict the salary of an incoming player, one thing important is to know 
-which stats are most important. **I figured** off the top of my head, and throughout my years of playing basketball myself (highschool and college), that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5.
+As I moved on toward my goal of trying to predict the salary of an incoming player, one important thing is to know 
+which stats are most important. **I figured** off the top of my head, and throughout my years of playing basketball myself (high school and college), that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5.
 
 ## Baseline Score
 
-When talking about basketball, the baseline score may be a bit confusing. You may think I'm trying to figure out how many players can score from the baseline... or some variatrion of that. However, for the baseline score, what I'm doing is taking the **mean salary** of the players, which is **$8,516,607** and figuring the **mean absolute error**, which is the absolute difference between each players salary and the mean. It comes to **$7,025,639**.
+When talking about basketball, the baseline score may be a bit confusing. You may think I'm trying to figure out how many players can score from the baseline... or some variation  of that. However, for the baseline score, what I'm doing is taking the **mean salary** of the players, which is **$8,516,607** and figuring the **mean absolute error**, which is the absolute difference between each player's salary and the mean. It comes to **$7,025,639**.
 
-## Linear Regressioion
+## Linear Regression
 
-As I continued my searching predictions I used the points value to generate a model that, given a player who would score **1500 points**, predicted the a salary of **$24,853,148**, but now we have a baseline to work with which means the **range** could be $7,025,639 more or less than the predicted salary (between **$17,827,509 & $31,878,787**). So, an incomming player can assume that *for every single point they score*, based on scoring alone, they can *expect to average 
+As I continued my searching predictions I used the points value to generate a model that, given a player who would score **1500 points**, predicted a salary of **$24,853,148**, but now we have a baseline to work with which means the **range** could be $7,025,639 more or less than the predicted salary (between **$17,827,509 & $31,878,787**). So, an incoming player can assume that *for every single point they score*, based on scoring alone, they can *expect to average 
 around **$15,693 per point.***
 
 ## Top Ten Stats
 
-***Note:*** As we see below, I was wromg about the points.
+***Note:*** As we see below, I was wrong about the points.
 
 In order of the impact on salary, these are the top ten stats.<br>
 1.  Age <br>
@@ -46,7 +46,7 @@ In order of the impact on salary, these are the top ten stats.<br>
 10. Field Goals Attempted  <br><br>
 ...and it keeps going.<br>
 
-![Top 10 Stats Ranked In Order](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_10_nba_stats.png)
+![Top 10 Stats Ranked in Order](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/top_10_nba_stats.png)
 
 ## Decision Tree
 
@@ -73,13 +73,13 @@ On average, as a player adds to their point total, the predicted salary goes dow
 
 ### Age
 
-Here we see that, on average, as a player ages, their salary is predicted to increase. I can only speculate that this has to do with the fact that they've likely been playing longer and have much more professional experience, hence the player is more valuable and worth more.
+Here we see that as a player ages, on average, their salary is predicted to increase. I can only speculate that this has to do with the fact that they've likely been playing longer and have much more professional experience, hence the player is more valuable and worth more.
 
 ![PDP for age](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age.png)
 
 ### Age & Free Throw Attempts
 
-Strictly based on a players age and their free throw attempts, regardless if they score or not, **a 36 year old athlete who goes to the line 482 times, is predicted to make (the top right corner) $17,949,892.** But there are other stats required to get the attempts at the line, so although this is fun to know, it's not realistic that any team is going to have a player who doesn't play any minutes yet gets to attempt 482 free throws... or any at all. Point is, one must have other stats, which affect the salary also. I chose these two, because they have the biggest impact on a salary, as seen above.
+Strictly based on a players age and their free throw attempts, regardless if they score or not, **a 36-year-old athlete who goes to the line 482 times, is predicted to make (the top right corner) $17,949,892.** But there are other stats required to get the attempts at the line, so although this is fun to know, it's not realistic that any team is going to have a player who doesn't play any minutes yet gets to attempt 482 free throws... or any at all. Point is, one must have other stats, which affect the salary also. I chose these two, because they have the biggest impact on a salary, as seen above.
 
 [![PDP Age & Free Throw Attempts](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age_fta.png)](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/PDP_age_fta.png)
 
@@ -89,11 +89,35 @@ Below are five examples of players and the stats they provide, with the associat
 
 To understand these images, know that the RED bars raise the salary, and the BLUE bars lower it. The bigger the width of each individual section, the bigger the impact. 
 
-And don't let the scientific notation intimidate you. I wasn't sure how to switch it, but just know it represents the salary.
+And don't let the scientific notation intimidate you. Just know it represents the salary.
 
 ***KEY***:
 
-Position (may be: Shooting Guard, Power Forward, Small Forward, Point Guard, Center, Forward, Guard), Age, Games Played, Wins, Losses, Minutes Played, Points, Field Goals Made, Field Goals Attempted, Field Goal Percentage, 3-pointers Made, 3-pointers Attempted, 3-pointers Percentage, Free Throws Made, Free Throws Attempted, Free Throw Percentage, Offensive Rebounds, Defensive Rebounds, Offensive Rebounds, Total Rebounds, Assists, Turnovers, Steals, Blocks, Personal Fouls
+Position (may be: Shooting Guard, Power Forward, Small Forward, Point Guard, Center, Forward, Guard)  
+Age   
+Games Played   
+Wins   
+Losses   
+Minutes Played   
+Points   
+Field Goals Made   
+Field Goals Attempted   
+Field Goal Percentage   
+3-pointers Made   
+3-pointers Attempted   
+3-pointers Percentage   
+Free Throws Made   
+Free Throws Attempted   
+Free Throw Percentage   
+Offensive Rebounds   
+Defensive Rebounds   
+Offensive Rebounds   
+Total Rebounds   
+Assists   
+Turnovers   
+Steals   
+Blocks   
+Personal Fouls
 
 ### Example 1
 
@@ -181,64 +205,6 @@ BLK	48
 PF	82  
 
 ![Shap Example 3](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_3.png?raw=true)
-
-### Example 4
-
-position_SG	1  
-AGE	23  
-GP	55  
-W	35  
-L	20  
-MIN_PLAYED	1,892  
-PTS	1,331  
-FGM	494  
-FGA	1,082  
-FG_PERCENT	46  
-x_3PM	132  
-x_3PA	367  
-x_3P_PERCENT	36  
-FTM	211  
-FTA	245  
-FT_PERCENT	86  
-OREB	36  
-DREB	201  
-REB	237  
-AST	234  
-TOV	148  
-STL	59  
-BLK	11  
-PF	133  
-
-![Shap Example 4](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_4.png?raw=true)
-
-### Example 5
-
-position_PF	1  
-AGE	33  
-GP	52  
-W	31  
-L	21  
-MIN_PLAYED	1,586  
-PTS	610  
-FGM	247  
-FGA	566  
-FG_PERCENT	44  
-x_3PM	73  
-x_3PA	228  
-x_3P_PERCENT	32  
-FTM	43  
-FTA	59  
-FT_PERCENT	73  
-OREB	78  
-DREB	267  
-REB	345  
-AST	197  
-TOV	52  
-STL	45  
-BLK	47  
-PF	112  
-
-![Shap Example 5](https://github.com/jacobpad/jacobpad.github.io/blob/master/img/shap_example_5.png?raw=true)
 
 ## Conclusion
 
