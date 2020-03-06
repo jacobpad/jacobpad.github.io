@@ -13,12 +13,11 @@ I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/t
 
 ## Target
 
-I wanted to predict how much an incoming player may earn (in USD) if the player could provide a certain benefit to the franchise by giving the stats they would average over a season.
+I wanted to predict how **much an incoming player could earn** (in USD) with the stats they would provide the franchise over the course of a season.
 
-## Moving On
+## What I Thought
 
-As I moved on toward my goal of trying to predict the salary of an incoming player, one important thing is to know 
-which stats are most important. **I figured** off the top of my head, and throughout my years of playing basketball myself (high school and college), that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5.
+One important thing is to know which stats are most important. I figured off the top of my head, and throughout my years of playing basketball myself, high school and college, that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5 stats.
 
 ## Baseline Score
 
