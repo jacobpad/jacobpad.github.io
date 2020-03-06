@@ -19,6 +19,10 @@ I wanted to predict how **much an incoming player could earn** (in USD) with the
 
 One important thing is to know which stats are most important. I figured off the top of my head, and throughout my years of playing basketball myself, high school and college (*being a member of the 7-footer club, how could I not play?*), that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5 stats.
 
+So I plotted it, and continued to stick with what I thought.
+
+![Salary and Points](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/Salary_PTS.png)
+
 ## Baseline Score
 
 When talking about basketball, the baseline score may be a bit confusing. You may think I'm trying to figure out how many players can score from the baseline... or some variation  of that. However, for the baseline score, what I'm doing is taking the **mean salary** of the players, which is **$8,516,607** and figuring the **mean absolute error**, which is the absolute difference between each player's salary and the mean. It comes to **$7,025,639**.
