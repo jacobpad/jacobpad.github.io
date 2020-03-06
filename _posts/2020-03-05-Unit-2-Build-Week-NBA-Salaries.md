@@ -9,7 +9,7 @@ image: /img/NBA-vector-logos.jpg
 
 ## Intro
 
-I was able to obtain some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)** and salaries from **[ESPN.com](http://www.espn.com/nba/salaries)** where I scraped the data. I combined the data together which gave me a set of all players in the National Basketball Association from all 30 teams. I am using only the active players who have stats. 
+I obtained some stats from **[NBA.com](https://stats.nba.com/players/traditional/?PerMode=Totals&dir=-1&sort=PTS&Season=2019-20&SeasonType=Regular%20Season)** and salaries from **[ESPN.com](http://www.espn.com/nba/salaries)** where I scraped the data. I combined the data together which gave me a set of all players in the National Basketball Association from all 30 teams. I am using only the active players who have stats. 
 
 ## Target
 
@@ -17,7 +17,7 @@ I wanted to predict how **much an incoming player could earn** (in USD) with the
 
 ## What I Thought
 
-One important thing is to know which stats are most important. I figured off the top of my head, and throughout my years of playing basketball myself, high school and college, that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5 stats.
+One important thing is to know which stats are most important. I figured off the top of my head, and throughout my years of playing basketball myself, high school and college (*being a member of the 7-footer club, how could I not play?*), that **the number of points a player could make would be the leading factor in how much money they would earn** as a professional athlete. I was surprised when I discovered I was wrong. The number of points wasn't even in the top 5 stats.
 
 ## Baseline Score
 
