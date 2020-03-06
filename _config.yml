@@ -50,11 +50,11 @@ avatar: "/img/jacob_profile_square.jpeg"
 
 # http://colormind.io/
 # Only God Forgives
-navbar-col: "#457A96"
-navbar-text-col: "#390F0A"
-navbar-children-col: "#F5F5F5"
-page-col: "#F4BC5A"
-link-col: "#007AB3"
+navbar-col: "#7B0828"
+navbar-text-col: "#519872"
+navbar-children-col: "#A4B494"
+page-col: "#BEC5AD"
+link-col: "#3D294F"
 hover-col: "#F2D6A2"
 footer-col: "#3C6B6B"
 footer-text-col: "#390F0A"
