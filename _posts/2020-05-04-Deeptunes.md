@@ -12,7 +12,7 @@ Deeptunes! is a song similarity finder from a dataset we used containing songs f
 
 Here's a quick video, time stamped to the spot where the app is explained.
 
-Ebjoy!
+Enjoy!
 
 <hr>
 
