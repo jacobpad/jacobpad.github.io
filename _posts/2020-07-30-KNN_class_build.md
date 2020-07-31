@@ -25,11 +25,14 @@ dataset = {'a':[[1,2],[3,1],[0,0],[4.25,1.5],[1,3],[2,3],[3,5]],
 [[plt.scatter(ii[0], ii[1], s=100, color='navy') 
 for ii in dataset[i]] for i in dataset];
 ```
-
+<img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/original%20plots.png"
+ alt="breakdown of quakes" style="width:600px;height:300px;"/>
 ![Original_Plot](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/original%20plots.png)
 
 I bet you could, but here's how I would do it.
 
+<img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/original%20seperated.png"
+ alt="breakdown of quakes" style="width:600px;height:300px;"/>
 ![original seperated](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/original%20seperated.png)
 
 Now, let's introduce a new dot, the blue one. We'll place it at `[5,7]`
@@ -51,7 +54,8 @@ new_features = [5,7]
 # Add the new features
 plt.scatter(new_features[0], new_features[1], s=100); # Blue
 ```
-
+<img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/blue%20dot.png"
+ alt="breakdown of quakes" style="width:600px;height:300px;"/>
 ![blue_dot](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/blue%20dot.png)
 
 ### Now for the big question...
@@ -66,6 +70,8 @@ But wait, what's the K?
 
 K is whatever you want it to be, but because it often plays the role of a tie breaker, it should always be an odd number. Typically, K defaults at the number 5. But that still doesn't explain what it is. K is the number of closest dots that vote on what the new dot should be. They try to recruit it to their side. 
 
+<img src="https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/black_red.png"
+ alt="breakdown of quakes" style="width:600px;height:300px;"/>
 ![black_red](https://raw.githubusercontent.com/jacobpad/jacobpad.github.io/master/img/CS_BW1/black_red.png)
 
 ## Let’s Build This Thing With The Cancer Dataset Mentioned Above
@@ -259,7 +265,7 @@ Then we've got the **`fit` method**, this is where the chrunching of the `X_trai
 
 It's followed by the **`euclidean_distance` method**, which does some fancy math (linear algebra) to figure out how far away each point is from the other, think how far the blue dot is from every other dot... (Remember the blue dot above?)
 
-Next, and lastly comes the **`predict method`**, which was the hardest for me to figure out. But if you've followed along with everything I've said up to this point, the predict method shouldn't be that scary. 
+Next, and lastly comes the **`predict` method**, which was the hardest for me to figure out. But if you've followed along with everything I've said up to this point, the predict method shouldn't be that scary. 
 
 Lets go backwards explaining this, starting at the bottom.
 
@@ -271,7 +277,7 @@ Phew! That's a lot!
 
 Because we've seen this kind of code above, I won't explain every line.
 
-```python3
+```python
 model = KNN(K=5)
 model.fit(X_train, y_train)
 y_pred = model.predict(X_test)
