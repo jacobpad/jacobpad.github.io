@@ -6,7 +6,7 @@ image: /img/CS_BW1/knn.png
 
 # KNN - You’ve heard about it, but what is it?
 
-K-NearestNeighbors, often called KNN for short, is a machine learning model used to generate predictions. And those predictions can be scored, outputing a percentage of how well the model did.
+K-NearestNeighbors, often called KNN for short, is a machine learning model used to generate predictions. And those predictions can be scored, outputting a percentage of how well the model did.
 
 I’ll be using the [Breast Cancer Wisconsin (Original) Data Set](https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Original%29) from UCI, but first lets go over some basics.
 
@@ -132,7 +132,7 @@ print(df)
 
 ### Splitting The Dataframe
 
-Now we need to split dataset into what we'll call "test/train/split" which will give us `X_train, X_test, y_train, y_test`. 
+Now we need to split dataset into what we'll call "train/test/split" which will give us `X_train, X_test, y_train, y_test`. 
 
 ```python
 # What the model uses to study on
@@ -156,7 +156,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(features, target, test_size=0.20, random_state=42)
 ```
 
-Notice the last line, the `test_size` parameter is `.2`. That means we're setting aside 20% of the data for testing our results (think whether the blue dot should be red or balck). That's where the `X_test` and `y_test` come into play. Conversly, 80% of the data is to be used for training. Hence the name "train/test/split". (I know, it's so original)
+Notice the last line, the `test_size` parameter is `.2`. That means we're setting aside 20% of the data for testing our results (think whether the blue dot should be red or balck). That's where the `X_test` and `y_test` come into play. Conversly, 80% of the data is to be used for training. Hence the name "train/test/split". (I know, it's so original!).
 
 The `features` are all the columns except the `target`. The target is what we want to be able to predict.
 
@@ -173,7 +173,7 @@ scaler = StandardScaler()
 X_train = scaler.fit_transform(X_train)
 X_test = scaler.transform(X_test)
 ```
-### Wait! Lets Cheat Real Quick
+### WAIT! Lets Cheat Real Quick
 
 This code will give us a glimps of what we should expect when we've finished building our own class.
 
