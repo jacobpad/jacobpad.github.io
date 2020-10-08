@@ -13,7 +13,7 @@ I obtained some stats from **[NBA.com](https://stats.nba.com/players/traditional
 
 ## Target
 
-I wanted to predict how **much an incoming player could earn** (in USD) with the stats they would provide the franchise over the course of a season.
+I wanted to predict **how much an incoming player could earn** (in USD) with the stats they would provide the franchise over the course of a season.
 
 ## What I Thought
 
